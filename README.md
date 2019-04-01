@@ -1,7 +1,7 @@
 # Grupa5-ELA
 ## Tema: HealthyMe
 
-![gif](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e28d1451661577.58f63a7c1c356.gif)
+![gif](https://media.giphy.com/media/1pAhr26FYA0OmuNEoC/giphy.gif)
 
 **Članovi tima:**
 1. Emina Hadžić
