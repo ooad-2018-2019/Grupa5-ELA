@@ -17,7 +17,7 @@ HealthyMe aplikacija će Vam pomoći da pronađete najbolji plan ishrane po Vaš
 HealthyMe sadrži:
 * Planove ishrane i savjete za svaki cilj - skinite višak kilograma i jedite zdravo
 * Brojač kalorija
-* Pratilac dnevne, sedmicne i mjesecne ishrane 
+* Pratilac dnevne, sedmične i mjesečne ishrane 
 
 Otkrijte kako zamijena _sitnih_ loših navika u dobre navike može da napravi veliku razliku i započnite putovanje do sretnijeg, zdravijeg i ljepšeg izgleda.   
 
