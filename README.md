@@ -57,6 +57,7 @@ Registrovani korisnik:
 
 Administrator:
 * Mogućnost pregleda, unosa i ažuriranja liste namirnica za odabir
+* Mogućnost brisanja komentara i banovanja korisnika u slučaju korištenja nedozvoljenih riječi
 
 ---
 
