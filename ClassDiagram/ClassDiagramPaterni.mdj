@@ -989,7 +989,7 @@
 											"top": 86,
 											"width": 63.57177734375,
 											"height": 13,
-											"text": "+Breakfast",
+											"text": "+Dorucak",
 											"horizontalAlignment": 0
 										},
 										{
@@ -12676,7 +12676,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql1+ttSxJHmE="
 							},
-							"name": "muski"
+							"name": "muski",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -12684,7 +12685,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql1+ttSxJHmE="
 							},
-							"name": "zenski"
+							"name": "zenski",
+							"type": ""
 						}
 					]
 				},
@@ -12718,7 +12720,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFql2JYsS0WO5E="
 							},
-							"name": "Breakfast"
+							"name": "Dorucak"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -12726,7 +12728,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql2JYsS0WO5E="
 							},
-							"name": "Rucak"
+							"name": "Rucak",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -12734,7 +12737,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql2JYsS0WO5E="
 							},
-							"name": "Vecera"
+							"name": "Vecera",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -12742,7 +12746,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql2JYsS0WO5E="
 							},
-							"name": "Uzina"
+							"name": "Uzina",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -12750,7 +12755,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFql2JYsS0WO5E="
 							},
-							"name": "Aktivnost"
+							"name": "Aktivnost",
+							"type": ""
 						}
 					]
 				},
