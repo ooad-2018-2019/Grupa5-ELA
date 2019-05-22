@@ -1,0 +1,20 @@
+SOLID PRINCIPI
+
+1. Princip pojedinačne odgovornosti ( eng. Single Responsibility Principle-SRP)
+  Prema našem dijagramu se vidi da svaka klasa ima tačno jednu ulogu- zna samo o jednoj stvari. 
+  Klase ne sadrže one metode koje nisu njihova odgovornost i time je pokazano da je zadovoljen S princip.
+2. Otvoreno zatvoren princip ( eng. Open Closed Principle-OCP) 
+  Vidimo da promjena bilo koje klase ne izaziva promjenu neke druge klase, što je omogućeno
+  čestom upotrebom nasljeđivanja i interfejsa. Prema tome, omogućeno je mijenjanje okoline modula 
+  bez promjene samog modula, odnosno zadovoljen je O princip.
+3. Liskov princip zamjene (eng. Liskov Substitution Principle-LSP)
+  L princip glasi: Podtipovi moraju biti zamjenjivi njihovim osnovnim tipovima.
+  U našem slučaju, moguće je svaku klasu zamijeniti bilo kojom njenom podklasom, a program bi nastavio 
+  neometano raditi. Dakle, izvedene klase nasljeđuju sve metode bazne klase, pa je zadovoljen i L princip.
+4. Princip izoliranja interfejsa ( eng. Interface Segregation Principle-ISP) 
+  I princip glasi: Klijenti ne trebaju ovisiti o metodama koje neće upotrebljavati.
+   Svi interfejsi su minimalistički i podržavaju samo operacije koje su potrebne. Stoga
+   klase ne implementiraju metode koje im nisu potrebne, i ispunjen je I princip.
+5. Princip inverzije ovisnosti (eng. Dependency Inversion Principle-DIP) 
+  Na vrhu hijerarhije svih klasa se nalazi ili apstraktna klasa ili interfejs, tako da 
+  je zadovoljen i D princip.
