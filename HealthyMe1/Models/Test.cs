@@ -8,6 +8,8 @@ namespace HealthyMe1.Models
     {
         [ScaffoldColumn(false)]
         public int ID { get; set; }
+        [Required]
+        public string Naziv { get; set; }
 
         public virtual ICollection<Pitanje> Pitanja { get; set; }
         public virtual ICollection<Registrovani> RKorisnici { get; set; }

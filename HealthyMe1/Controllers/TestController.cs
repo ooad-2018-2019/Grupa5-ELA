@@ -54,7 +54,7 @@ namespace HealthyMe1.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("")] Test test)
+        public async Task<IActionResult> Create([Bind("Naziv")] Test test)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace HealthyMe1.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("")] Test test)
+        public async Task<IActionResult> Edit(int id, [Bind("Naziv")] Test test)
         {
             if (id != test.ID)
             {
