@@ -32,7 +32,6 @@ Otkrijte kako zamijena _sitnih_ loših navika u dobre navike može da napravi ve
 * Korisniku je omogućen unos i ažuriranje doručka, ručka, užine i večere, kao i dnevnih aktivnosti.
 * Za svaki obrok korisnik ima uvid u nivo kalorija, kao i proteina, ugljikohidrata i masti koju je unio.
 * Korisnik može da vidi koliko mu je još kalorija preostalo koje smije da unese. 
-* Korisnik ima mogućnost praćenja dnevnog unosa vode (podešeno na 2 litra dnevno ili 8 čaša). 
 * Korisniku stoji na raspolaganju plan ishrane, koji se generiše putem testa. U testu se ispituje da li je korisnik veganac, vegeterijanac ili ništa od navedenog. Zatim da li ima posebnu preferencu za dijetu (npr. da li želi visokoproteinsku dijetu ili samo da se hrani zdravo). Na kraju se dobije preporučeni plan ishrane.   
 * Administrator ima mogućnost unosa i ažuriranja liste namirnica za odabir. 
 
@@ -50,7 +49,6 @@ Registrovani korisnik:
 * Mogućnost pregleda nekih od planova ishrane
 * Mogućnost ažuriranja korisničkog računa
 * Mogućnost unosa doručka, ručka, užine i večere
-* Mogućnost unosa dnevnog unosa vode
 * Mogućnost odabira plana ishrane
 * Mogućnost pravljenja podsjetnika
 * Mogućnost pregleda unosa kalorija, proteina, ugljikohidrata i masti dnevno, sedmicno i mjesecno.
