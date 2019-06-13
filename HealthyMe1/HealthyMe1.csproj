@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="DAL\" />
+    <Folder Include="Views\Registracija\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Namirnica\Delete.cshtml" />

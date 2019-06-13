@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HealthyMe1.Models
 {
-    public class Registrovani
+    public partial class Registrovani
     {
         [ScaffoldColumn(false)]
         public int ID { get; set; }
@@ -20,9 +20,12 @@ namespace HealthyMe1.Models
         public double Visina { get; set; }
         [Required]
         public double Tezina { get; set; }
-        [Required]
-        public string Username { get; set; }
-        [Required]
+        [DataType(DataType.EmailAddress)]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Unesite email")]
+        public string Email { get; set; }
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Unesite password")]
+        [DataType(DataType.Password)]
+        [MinLength(6, ErrorMessage = "Minimalno 6 znakova je potrebno za password!)")] 
         public string Password { get; set; }
 
         public virtual ICollection<DnevniPlan> DnevniPlanovi { get; set; }

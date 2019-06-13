@@ -7,9 +7,16 @@ namespace HealthyMe1.DAL
 {
     public class HealthyMeContext : DbContext
     {
+        public static HealthyMeContext instance;
+
+        public static HealthyMeContext GetInstance()
+        {
+            return instance;
+        }
+
         public HealthyMeContext(DbContextOptions<HealthyMeContext> options) : base(options)
         {
-
+            instance = this;
         }
 
         public DbSet<Administrator> Administratori { get; set; }
